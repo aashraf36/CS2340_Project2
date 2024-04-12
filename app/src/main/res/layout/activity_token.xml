@@ -20,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:visibility="invisible"
         tools:text="Token:" />
 
     <Button
@@ -27,13 +28,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="Request Token" />
+        android:text="Get Account Info" />
 
     <TextView
         android:id="@+id/code_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:visibility="invisible"
         tools:text="Code:" />
 
     <Button
@@ -41,6 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:visibility="invisible"
         android:text="Request Code" />
 
     <TextView
@@ -48,7 +51,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="10sp"
+        android:visibility="invisible"
         tools:text="Line 1\nLine 2\nLine 3" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Back to App"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="16dp"/>
 
 
     <!-- <Button

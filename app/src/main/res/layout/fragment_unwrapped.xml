@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingBottom="100dp"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal">
+
+        <!-- Heading for the Top Artists Page -->
+        <Button
+            android:id="@+id/play_Songs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_rounded_green"
+            android:text="Play Songs"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textViewYourTopArtists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Top Artists This Week"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewArtists"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical" />
+
+        <!-- Heading and RecyclerView for the First Set of Top Tracks -->
+        <TextView
+            android:id="@+id/textViewYourTopTracks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Top Tracks This Week"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTopTracks"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical" />
+
+        <!-- Heading and RecyclerView for the Second Set of Top Artists -->
+        <TextView
+            android:id="@+id/textViewYourTopArtists2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Top Artists Last Month"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewArtists2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical" />
+
+        <!-- Heading and RecyclerView for the Second Set of Top Tracks -->
+        <TextView
+            android:id="@+id/textViewYourTopTracks2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Top Tracks Last Month"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTopTracks2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical" />
+
+        <!-- Heading and RecyclerView for the Third Set of Top Artists -->
+        <TextView
+            android:id="@+id/textViewYourTopArtists3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Top Artists This Year"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewArtists3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical" />
+
+        <!-- Heading and RecyclerView for the Third Set of Top Tracks -->
+        <TextView
+            android:id="@+id/textViewYourTopTracks3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Top Tracks This Year"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTopTracks3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>

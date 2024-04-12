@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.spotifyapp2340.ui.home.LoginFragment"
-        android:label="Login"
+        android:name="com.example.spotifyapp2340.ui.home.AccountInfoFragment"
+        android:label="Account"
         tools:layout="@layout/fragment_home" />
 
 <!--
@@ -19,16 +19,21 @@
         android:name="com.example.spotifyapp2340.TokenActivity"
         android:label="Token"
         tools:layout="@layout/activity_token" />
+    <activity
+        android:id="@+id/navigation_activity"
+        android:name="com.example.spotifyapp2340.MainActivity"
+        android:label="Main"
+        tools:layout="@layout/activity_main" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.spotifyapp2340.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:name="com.example.spotifyapp2340.ui.dashboard.LoginFragment"
+        android:label="Log In"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.spotifyapp2340.ui.notifications.UnwrappedFragment"
         android:label="Spotify Unwrapped"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_unwrapped" />
 </navigation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".PlaySongActivity">
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- TextView to prompt user to click on a song button -->
+    <TextView
+        android:id="@+id/textViewPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on the button of the song you want to play"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Button 1 -->
+    <Button
+        android:id="@+id/buttonSong1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eternal Sunshine"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Button 2 -->
+    <Button
+        android:id="@+id/buttonSong2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daylight"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Button 3 -->
+    <Button
+        android:id="@+id/buttonSong3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Red Wine Supernova"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Button 4 -->
+    <Button
+        android:id="@+id/buttonSong4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breakin' Dishes"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Button 5 -->
+    <Button
+        android:id="@+id/buttonSong5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carnival"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
